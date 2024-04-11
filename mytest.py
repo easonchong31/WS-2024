@@ -14,5 +14,10 @@ def checkServiceForWord(url, keyword):
 
 
 url = 'http://localhost:5000/getTitles'
-result = checkServiceForWord(url, 'id')
+result = checkServiceForWord(url, 'title')
+print(result)
+
+
+url = 'http://localhost:5000/getProducts'
+result = checkServiceForWord(url, 'price')
 print(result)
