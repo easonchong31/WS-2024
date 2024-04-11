@@ -19,5 +19,5 @@ print(result)
 
 
 url = 'http://localhost:5000/getProducts'
-result = checkServiceForWord(url, 'price')
+result = checkServiceForWord(url, 'xxx')
 print(result)
